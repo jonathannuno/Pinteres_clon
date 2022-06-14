@@ -185,12 +185,18 @@
     background: #e5e5e5;
   }
 
+  main {
+    padding-top: 80px;
+  }
+
+
   /* cards */
   .wrapper-card {
     padding: 1rem;
     max-width: auto;
     columns: 5 320px;
     column-gap: 0;
+    
   }
   
   /* metodologia para hacer la carta */
