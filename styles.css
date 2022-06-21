@@ -28,12 +28,14 @@
     z-index: 1;
     width: 100%;
   }
+
   .left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20%;
   }
+
   .left .logo {
     border-radius: 50%;
     width: 3rem;
@@ -56,6 +58,7 @@
         margin-left: 40px;
       }
   }
+
   .left .home {
     font-weight: bold;
     height: 3rem;
@@ -67,6 +70,7 @@
     justify-content: center;
     border-radius: 1.563rem;
   }
+  
 /* Explore button */
 .left .explore {
     border-bottom: 3px solid black;
@@ -115,6 +119,10 @@
     border-radius: 25px;
     overflow: hidden;
     background: #e3e3e3;
+  }
+
+  nav ion-icon {
+    width: 7vh;
   }
 
 /* Search bar */
@@ -194,7 +202,7 @@
   .wrapper-card {
     padding: 1rem;
     max-width: auto;
-    columns: 5 320px;
+    columns: 6 220px;
     column-gap: 0;
     
   }
@@ -286,6 +294,7 @@
     padding: 8px;
   }
   
+  
   .lowermenu button {
     padding: 10px;
     background-color: lightgray;
@@ -298,6 +307,7 @@
     text-decoration: none;
     border-style: none;
     color: white;
+    font-size: 12px;
   }
   
   @media only screen and (max-width: 800px) {
